@@ -1,0 +1,69 @@
+/* Basic Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+    color: #333; 
+}
+
+/* Layout */
+header, footer { 
+    text-align: center; 
+    padding: 1em; 
+    background-color: #d3e0dc; 
+}
+
+nav { 
+    display: flex; 
+    justify-content: center; 
+    gap: 1em; 
+    margin: 1em 0; 
+}
+
+nav a { 
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold; 
+}
+
+.section { 
+    max-width: 800px; 
+    margin: auto; 
+    padding: 2em; 
+}
+
+h1, h2 { 
+    color: #3a5a40; 
+}
+
+p { 
+    margin: 1em 0; 
+    line-height: 1.6; 
+}
+
+/* Specific Styling */
+#home { 
+    background-color: #e9f5f2; 
+}
+
+#reservations { 
+    background-color: #f7f3e3; 
+}
+
+#pricelist { 
+    background-color: #e9e3f7; 
+}
+
+.calendar { 
+    border: 1px solid #ccc; 
+    padding: 1em; 
+    background-color: #fff; 
+    text-align: center; 
+    margin-top: 1em; 
+}
+
+footer { 
+    font-size: 0.9em; 
+    color: #555; 
+}
