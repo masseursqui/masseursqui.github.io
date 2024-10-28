@@ -2,8 +2,8 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body { 
-    font-family: Arial, sans-serif; 
-    background-color: #f4f4f4; 
+    font-family: 'Century Gothic', Arial, sans-serif; 
+    background-color: #f3f4f6; 
     color: #333; 
 }
 
@@ -11,7 +11,7 @@ body {
 header, footer { 
     text-align: center; 
     padding: 1em; 
-    background-color: #d3e0dc; 
+    background-color: #e0d7e5; 
 }
 
 nav { 
@@ -27,14 +27,17 @@ nav a {
     font-weight: bold; 
 }
 
-.section { 
+section { 
     max-width: 800px; 
     margin: auto; 
     padding: 2em; 
+    background-color: #fcf8e8;
+    border: 1px solid #e0d7e5;
+    border-radius: 8px;
 }
 
 h1, h2 { 
-    color: #3a5a40; 
+    color: #4b535a; 
 }
 
 p { 
@@ -42,21 +45,8 @@ p {
     line-height: 1.6; 
 }
 
-/* Specific Styling */
-#home { 
-    background-color: #e9f5f2; 
-}
-
-#reservations { 
-    background-color: #f7f3e3; 
-}
-
-#pricelist { 
-    background-color: #e9e3f7; 
-}
-
 .calendar { 
-    border: 1px solid #ccc; 
+    border: 1px solid #d1c6d3; 
     padding: 1em; 
     background-color: #fff; 
     text-align: center; 
