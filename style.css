@@ -3,21 +3,24 @@
 
 body { 
     font-family: 'Century Gothic', Arial, sans-serif; 
-    background-color: #f3f4f6; 
+    background-image: url('background.jpg'); /* Use the path to your downloaded background image */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the background image */
     color: #333; 
 }
 
 /* Layout */
-header, footer { 
+header { 
     text-align: center; 
     padding: 1em; 
-    background-color: #e0d7e5; 
+    background-color: rgba(255, 248, 220, 0.7); /* Semi-transparent pastel yellow */
 }
 
 nav { 
     display: flex; 
     justify-content: center; 
     gap: 1em; 
+    align-items: center; /* Center items vertically */
     margin: 1em 0; 
 }
 
@@ -27,13 +30,19 @@ nav a {
     font-weight: bold; 
 }
 
-section { 
+/* Social Icon Styling */
+.instagram-icon {
+    width: 20px; /* Smaller width */
+    height: 20px; /* Smaller height */
+}
+
+/* Section Styling */
+.content { 
     max-width: 800px; 
     margin: auto; 
     padding: 2em; 
-    background-color: #fcf8e8;
-    border: 1px solid #e0d7e5;
-    border-radius: 8px;
+    background-color: rgba(252, 248, 232, 0.9); /* Semi-transparent background for readability */
+    border-radius: 8px; /* Rounded corners */
 }
 
 h1, h2 { 
@@ -45,15 +54,23 @@ p {
     line-height: 1.6; 
 }
 
-.calendar { 
-    border: 1px solid #d1c6d3; 
-    padding: 1em; 
-    background-color: #fff; 
+/* Button Styling */
+.button-container {
     text-align: center; 
-    margin-top: 1em; 
+    margin: 2em 0; /* Centered button with margin */
 }
 
-footer { 
-    font-size: 0.9em; 
-    color: #555; 
+.book-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.1em; /* Adjust font size */
 }
+
+.book-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
